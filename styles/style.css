@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f2f2f2;
 }
 
 .header {
@@ -16,6 +15,7 @@
   max-height: 756px;
   display: flex;
   position: relative;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -82,46 +82,46 @@
   margin-left: 64px;
 }
 
+.description {
+  margin-top: 100px;
+}
+
 .two-columns {
   width: 80%;
   min-width: 784px;
   margin: 100px 0 0 0;
 }
 
-.flex-column {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-}
-
 .flex-row {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 100px auto auto auto;
+  margin: auto;
 }
 
 .two-columns__brief {
-  border: 1px solid red;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin-top: 0;
 }
 
 .two-columns__main-text {
-  border: 1px solid red;
   width: 80%;
 }
 
 .two-columns__paragraph {
-  border: 1px solid red;
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0; auto;
+}
+
+.two-columns__paragraph_space_bottom {
+  margin-bottom: 30px;
 }
 
 .two-columns__span-accent {
@@ -130,7 +130,77 @@
   font-weight: bold;
 }
 
+.digits {
+  margin: 100px; auto;
+}
 
+.centered-block {
+  margin: auto;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-title_space_bottom {
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 1100px;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  align-items: stretch;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+.flex-column {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: 0;
+}
 
 
 
