@@ -15,6 +15,7 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -34,7 +35,7 @@
   width: 730px;
   font-size: 102px;
   line-height: 96px;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -44,7 +45,7 @@
   left: 64px;
   line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .header__link {
@@ -59,7 +60,7 @@
   width: 765px;
   height: 608px;
   background-image: url(../images/header-image.png);
-  background-position: center;
+  background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
@@ -74,7 +75,7 @@
   width: 568px;
 }
 
-.flex-column {
+.flex-column_center {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,36 +83,56 @@
 }
 
 .two-columns {
+  width: 80%;
   min-width: 784px;
   margin: 100px 0 0 0;
 }
 
+.flex-column {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-row {
+  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 100px auto auto auto;
 }
 
 .two-columns__brief {
+  border: 1px solid red;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   color: #2f80ed;
 }
 
-.two-columns__paragraph {
+.two-columns__main-text {
+  border: 1px solid red;
   width: 80%;
+}
+
+.two-columns__paragraph {
+  border: 1px solid red;
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
 }
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
