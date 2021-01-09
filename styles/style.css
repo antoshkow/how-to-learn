@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -17,7 +26,7 @@
   position: relative;
   background-color: #f2f2f2;
   z-index: 1;
-  /* выше установили ограничения для секции */
+  overflow: hidden;
 }
 
 .logo {
@@ -56,6 +65,12 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: color ease 1s;
+  opacity: 10;
+}
+
+.header__link:hover {
+  color: #C71585;
 }
 
 .header__main-illustration {
@@ -79,6 +94,10 @@
   height: 568px;
   width: 568px;
   z-index: -2;
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
 }
 
 .description {
@@ -356,10 +375,6 @@ color: white;
 }
 
 .footer__column-link:hover {
-  color: #C71585;
-}
-
-.header__link:hover {
   color: #C71585;
 }
 

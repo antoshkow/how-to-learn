@@ -1,0 +1,24 @@
+.cards__item {
+  margin: 0 100px 60px 0;
+  max-width: 240px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cards__item:nth-last-of-type(3) {
+  margin-right: 0;
+}
+
+.cards__item:nth-of-type(4) {
+  height: 448px;
+  margin-bottom: 0;
+}
+
+.cards__item:nth-of-type(5) {
+  height: 448px;
+  margin-bottom: 0;
+}
