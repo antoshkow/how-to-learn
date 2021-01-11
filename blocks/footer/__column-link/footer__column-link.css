@@ -5,8 +5,13 @@
   font-weight: normal;
   text-decoration: none;
   margin-top: 0;
+  transition: opacity 1s linear 0.1s;
 }
 
 .footer__column-link:hover {
   color: #C71585;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
