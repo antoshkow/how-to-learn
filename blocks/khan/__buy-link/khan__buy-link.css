@@ -4,15 +4,11 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  transition: color 1s linear 0.1s;
-  opacity: 1;
   transition: opacity 1s linear 0.1s;
+  opacity: 1;
 }
 
   .khan__buy-link:hover {
     color: #C71585;
-  }
-
-  .khan__buy-link:hover {
     opacity: 0.5;
   }
