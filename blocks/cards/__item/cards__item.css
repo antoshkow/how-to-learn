@@ -1,4 +1,5 @@
-.cards__item {
+/* Реализация с flex-box */
+/* .cards__item {
   margin: 0 100px 0 0;
   max-width: 240px;
   box-sizing: border-box;
@@ -19,4 +20,11 @@
 
 .cards__item:nth-of-type(5) {
   margin-bottom: 0;
+} */
+
+/* Реализация с grid-layout */
+.cards__item {
+  max-width: 240px;
+  box-sizing: border-box;
+  text-align: center;
 }
