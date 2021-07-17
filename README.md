@@ -8,4 +8,4 @@
 
 4. Планы по доработке: проверить код на кроссбраузерность, дописать вендорные префиксы для flexbox, transformation, keyframes; сменить ось вращения элемента kaufman__triangle; сделать лендинг адаптивным.
 
-5. [Ссылка на gh-pages.](https://antoshkow.github.io/how-to-learn/ "Ссылка на gh-pages.")
+5. [Ссылка на деплой.](https://how-to-learn-kohl.vercel.app/ "Ссылка на деплой.")
