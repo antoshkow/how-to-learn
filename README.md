@@ -1,4 +1,4 @@
-# How to learn.
+# How to learn
 
 1. Project work "How to learn" (sprint 1-2).
 
@@ -8,4 +8,4 @@
 
 4. Improvement plans: check the code for cross-browser compatibility, add vendor prefixes for flexbox, transformation, keyframes; change the rotation axis of the element kaufman__triangle; make the landing page responsive.
 
-5. [gh-pages link.](https://how-to-learn-kohl.vercel.app/ "gh-pages link.")
+5. [gh-pages link.](https://how-to-learn-kohl.vercel.app/ "gh-pages link."){:target="_blank"}
